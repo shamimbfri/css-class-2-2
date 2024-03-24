@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.card{
+    background-color: #fffff ;
+    width: 250px;
+    padding: 10px;
+    box-shadow: 10px 10px 30px #ccc;
+}
+.card .top-price{
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    position: absolute;
+    left: 0;
+
+
+}
+.del{
+    text-decoration: line-through;
+}
